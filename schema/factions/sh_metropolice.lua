@@ -1,6 +1,6 @@
 
-FACTION.name = "Metropolice Force"
-FACTION.description = "A metropolice unit working as Civil Protection."
+FACTION.name = "Civil Protection Authority"
+FACTION.description = "The Grand Police Force of the Universal Union."
 FACTION.color = Color(50, 100, 150)
 FACTION.pay = 10
 FACTION.models = {"models/police.mdl"}
@@ -17,7 +17,7 @@ function FACTION:OnCharacterCreated(client, character)
 end
 
 function FACTION:GetDefaultName(client)
-	return "MPF-RCT." .. Schema:ZeroNumber(math.random(1, 99999), 5), true
+	return "CPA-RCT." .. Schema:ZeroNumber(math.random(1, 99999), 5), true
 end
 
 function FACTION:OnTransfered(client)
