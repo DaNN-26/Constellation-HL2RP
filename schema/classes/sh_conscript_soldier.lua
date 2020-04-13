@@ -1,6 +1,6 @@
 CLASS.name = "Combine Conscripted Forces"
 CLASS.faction = FACTION_CONSCRIPT
-CLASS.isDefault = true
+CLASS.isDefault = false
 
 function CLASS:OnSet(client)
 	local character = client:GetCharacter()
