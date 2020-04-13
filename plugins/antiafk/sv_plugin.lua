@@ -17,7 +17,7 @@ end
 
 function PLUGIN:KickAFK(target, byAdmin)
 	if (target) then
-		target:Kick("You were kicked for being AFK")
+		target:Kick("You were kicked for being gone for too long. 30-60 Minutes AFK Time Permitted.")
 
 		if (byAdmin) then
 			ix.util.NotifyLocalized("kickedAdminAFK", nil, byAdmin:Name(), target:Name())
