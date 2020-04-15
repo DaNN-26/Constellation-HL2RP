@@ -1,0 +1,5 @@
+ITEM.name = "Iron Loyalist Armband"
+ITEM.model = "models/props_lab/clipboard.mdl"
+ITEM.description = "An armband given to Iron Tier Loyalists."
+ITEM.category = "Bands"
+ITEM.band = "iron"
