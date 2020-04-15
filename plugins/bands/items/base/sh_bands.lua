@@ -1,6 +1,6 @@
 ITEM.name = "Band"
 ITEM.model = "models/props_lab/clipboard.mdl"
-ITEM.description = "Opaska lojalisty."
+ITEM.description = "Loyalist Armband."
 ITEM.category = "Bands"
 ITEM.band = false
 
