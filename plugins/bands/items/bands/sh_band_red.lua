@@ -1,5 +1,5 @@
-ITEM.name = "Czerwona Opaska"
+ITEM.name = "Red Loyalist Armband"
 ITEM.model = "models/props_lab/clipboard.mdl"
-ITEM.description = "Czerwona opaska lojalisty."
+ITEM.description = "A Red loyalist armband given to Red Tier Loyalists"
 ITEM.category = "Bands"
 ITEM.band = "red"
