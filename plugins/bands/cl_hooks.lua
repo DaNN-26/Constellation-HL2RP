@@ -1,11 +1,16 @@
 local bands = { --taka tablica, żeby nie zapierdalać po tabelach itemku
-	["brown"] = {Color(102, 51, 51),"Brązowa opaska lojalisty"},
-	["red"] = {Color(192, 57, 43),"Czerwona opaska lojalisty"},
-	["green"] = {Color(39, 174, 96),"Zielona opaska lojalisty"},
-	["blue"] = {Color(41, 128, 185),"Niebieska opaska lojalisty"},
-	["white"] = {Color(221, 221, 221),"Biała opaska lojalisty"},
-	["gold"] = {Color(241, 196, 15),"Złota opaska lojalisty"},
-	["violet"] = {Color(142, 68, 173),"Fioletowa opaska lojalisty"}
+	["red"] = {Color(192, 57, 43),"Red Loyalist Armband"},
+	["blue"] = {Color(41, 128, 185),"Blue Loyalist Armband"},
+	["green"] = {Color(39, 174, 96),"Green Loyalist Armband"},
+	["orange"] = {Color(255,128,0), "Orange Loyalist Armband"},
+	["brown"] = {Color(102, 51, 51),"Brown Loyalist Armband"},
+	["black"] = {Color(0,0,0), "Black Loyalist Armband"
+	["violet"] = {Color(142, 68, 173),"Violet Loyalist Armband"}
+	["white"] = {Color(221, 221, 221),"White Loyalist Armband"},
+	["iron"] = {Color(15,0,15), "Iron Loyalist Armband"},
+	["gold"] = {Color(153,128,0),"Gold Loyalist Armband"},
+	["diamond"] = {Color(185,242,255), "Diamond Loyalist Armband"},
+	["thermal"] = {Color(44,39,46), "Thermal Loyalist Armband"}
 }
 
 function PLUGIN:PopulateCharacterInfo(client, character, tooltip)
